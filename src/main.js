@@ -39,7 +39,7 @@ var firebaseConfig = {
     databaseURL:
         'https://' +
         process.env.VUE_APP_FIREBASE_PROJECT_ID +
-        '.firebaseio.com',
+        '-default-rtdb.europe-west1.firebasedatabase.app',
     projectId: process.env.VUE_APP_FIREBASE_PROJECT_ID,
     storageBucket: process.env.VUE_APP_FIREBASE_PROJECT_ID + '.appspot.com',
     messagingSenderId: process.env.VUE_APP_FIREBASE_MESSAGING_SENDER_ID,
